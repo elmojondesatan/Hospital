@@ -1,4 +1,4 @@
-package Salas;
+package model;
 
 public class SaladeCIrugias {
 }

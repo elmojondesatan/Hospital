@@ -1,4 +1,4 @@
-import javafx.scene.text.Font;
+package view;
 
 import javax.swing.*;
 import java.awt.*;

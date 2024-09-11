@@ -1,4 +1,4 @@
-package PersonalMedico;
+package model;
 
 public class Enfermera {
 }
