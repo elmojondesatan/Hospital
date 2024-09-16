@@ -5,8 +5,16 @@ import servicies.bdDoctores;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
+import java.util.EventListener;
 
 public class LoginView extends JFrame {
+
+    //Objetos Globales
+    private JLabel user;
+    private JTextField usuario;
+    private JPasswordField password;
+    private JButton boton;
 
     public LoginView(){
 
@@ -65,22 +73,7 @@ public class LoginView extends JFrame {
 
 
         //ACCIÓN DEL BOTÓN
-        boton.addActionListener(e -> {
 
-            if (bdDoctores.user[0].equalsIgnoreCase(usuario.getText())){
-                if (bdDoctores.pass[0].equalsIgnoreCase(password.getText())){
-                    DoctorGeneral userDoctor = new DoctorGeneral();
-                }
-            }else {
-                JLabel msjError = new JLabel("Error de Correo");
-                msjError.setForeground(Color.RED);
-                mainPanel.add(msjError);
-            }
-
-            mainPanel.revalidate();
-            mainPanel.repaint();
-
-        });
 
 
         mainPanel.add(panel1);
@@ -88,6 +81,21 @@ public class LoginView extends JFrame {
 
         this.add(mainPanel);
         this.setVisible(true);
+
+    }
+
+
+    //Metodos del login
+    public String getCorreo(){
+        return usuario.getText();
+    }
+
+    public String getPassword(){
+        return password.getText();
+    }
+
+    public void addLoginViewListener(ActionListener listener){
+        boton.addActionListener(listener);
 
     }
 }
