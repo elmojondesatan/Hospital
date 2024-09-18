@@ -1,0 +1,18 @@
+Index: src/servicies/bdDoctores.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package servicies;\n\npublic class bdDoctores {\n    public static String user[] = {\"jefuentes@scl.edu.gt\", \"juan@scl.edu.gt\"};\n    public static String pass[] = {\"gatitos123\", \"perritos123\"};\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/servicies/bdDoctores.java b/src/servicies/bdDoctores.java
+--- a/src/servicies/bdDoctores.java	(revision 2a6e9c051e97e10e05f879e858dc0795a7f29fd9)
++++ b/src/servicies/bdDoctores.java	(date 1726493858300)
+@@ -1,5 +1,7 @@
+ package servicies;
+ 
++import java.util.ArrayList;
++
+ public class bdDoctores {
+     public static String user[] = {"jefuentes@scl.edu.gt", "juan@scl.edu.gt"};
+     public static String pass[] = {"gatitos123", "perritos123"};

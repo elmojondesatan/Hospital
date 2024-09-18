@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"300cfd4a-4b8b-4072-a808-3e2f4a761504\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/img/icono.jpg\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/view/LoginView.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/servicies/bdDoctores.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/servicies/bdDoctores.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/view/login.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2jvIdei3heAofcB8wsWGLy6kOE3\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.Main.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"Rama-login\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/home/pijije123/Documentos/Hospital-Proyect/Hospital/src/img\",\n    \"onboarding.tips.debug.path\": \"C:/Users/diego/IdeaProjects/Hospital/src/Main.java\",\n    \"project.structure.last.edited\": \"Project\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"300cfd4a-4b8b-4072-a808-3e2f4a761504\" name=\"Changes\" comment=\"\" />\n      <created>1722261213312</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1722261213312</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2a6e9c051e97e10e05f879e858dc0795a7f29fd9)
++++ b/.idea/workspace.xml	(date 1726494313190)
+@@ -5,12 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="300cfd4a-4b8b-4072-a808-3e2f4a761504" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/img/icono.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/view/LoginView.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/backEnd/BackEnd.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/servicies/bdDoctores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicies/bdDoctores.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/view/login.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,7 +40,7 @@
+     "Application.Main.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "Rama-login",
++    "git-widget-placeholder": "rm-backEnd",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "/home/pijije123/Documentos/Hospital-Proyect/Hospital/src/img",
+     "onboarding.tips.debug.path": "C:/Users/diego/IdeaProjects/Hospital/src/Main.java",
+Index: src/backEnd/BackEnd.java
+===================================================================
+diff --git a/src/backEnd/BackEnd.java b/src/backEnd/BackEnd.java
+new file mode 100644
+--- /dev/null	(date 1726494767849)
++++ b/src/backEnd/BackEnd.java	(date 1726494767849)
+@@ -0,0 +1,6 @@
++package backEnd;
++
++public class BackEnd {
++
++
++}

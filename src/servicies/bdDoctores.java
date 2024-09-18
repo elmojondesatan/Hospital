@@ -1,7 +1,18 @@
 package servicies;
 
-public class bdDoctores {
-    public static String user[] = {"jefuentes@scl.edu.gt", "juan@scl.edu.gt"};
-    public static String pass[] = {"gatitos123", "perritos123"};
-}
+import model.DoctorGeneral;
 
+import java.util.ArrayList;
+
+public class bdDoctores {
+    private ArrayList<DoctorGeneral> bdDoctores;
+
+    public bdDoctores() {
+        bdDoctores = new ArrayList<>();
+        bdDoctores.add(new DoctorGeneral("Diego", "diego@gmail.com","DoctorGeneral","7268-3244","Num 123","12345"));
+
+
+
+
+    }
+}
