@@ -1,12 +1,8 @@
 package view;
 
-import model.DoctorGeneral;
-import servicies.bdDoctores;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.EventListener;
 
 public class LoginView extends JFrame {
 
