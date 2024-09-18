@@ -55,9 +55,6 @@ public class DoctorView extends JFrame {
         setVisible(true);
     }
 
-    public static void main(String[] args) {
-        // Crear una instancia de la ventana
-        new DoctorView();
-    }
+    
 }
 
