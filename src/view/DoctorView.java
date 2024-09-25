@@ -18,6 +18,26 @@ public class DoctorView extends JFrame {
                 "15/03/1985", "10:00 AM", "Chequeo General", 2, "Dr. Gómez"));
         listaPacientes.add(new Pacientes("Lucía Hernández", "lucia.h@gmail.com", "555-5678", "Av. Sol 456",
                 "22/07/1992", "11:00 AM", "Consulta por Dolor", 1, "Dra. Torres"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
+        listaPacientes.add(new Pacientes("Ana López", "ana.lopez@hotmail.com", "555-2345", "Calle Mar 321",
+                "09/05/1989", "09:30 AM", "Consulta por Dolor", 2, "Dra. Méndez"));
 
         setTitle("Perfil del doctor");
         setSize(pantalla[0], pantalla[1]);
