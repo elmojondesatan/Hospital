@@ -1,5 +1,7 @@
 package view;
 
+import controller.loginController;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,6 +9,8 @@ public class DoctorView extends JFrame {
     private int[] pantalla = {1300, 800};
 
     public DoctorView() {
+
+
 
 
         setTitle("Perfil del doctor");
@@ -92,4 +96,11 @@ public class DoctorView extends JFrame {
         });
         return op;
     }
+
+    public static void main(String[] args) {
+        new DoctorView();
+    }
 }
+
+
+
