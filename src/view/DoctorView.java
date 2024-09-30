@@ -102,11 +102,11 @@ public class DoctorView extends JFrame {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.gridx = 0;
 
-        menu.add(op("Opcion 1"), gbc);
-        menu.add(op("Opcion 2"), gbc);
-        menu.add(op("Opcion 3"), gbc);
-        menu.add(op("Opcion 4"), gbc);
-        menu.add(op("Opcion 5"), gbc);
+        menu.add(op("Consultas"), gbc);
+        menu.add(op("Salas"), gbc);
+        menu.add(op("Farmacia "), gbc);
+        menu.add(op("Pacientes registrados"), gbc);
+        menu.add(op("Cita dedicada"), gbc);
 
         menuPanel.add(menu);
         return menuPanel;
