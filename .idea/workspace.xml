@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300cfd4a-4b8b-4072-a808-3e2f4a761504" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/dataSalas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/salasView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Hospital_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Descargas/Hospital.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SalaDeHospitalizacionGeneral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SaladeCIrugias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SalasdeUrgencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Salas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/DoctorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/DoctorView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +51,16 @@
   "keyToString": {
     "Application.DoctorView.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.salasView.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "rm-salasView",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/pijije123/Documentos/Hospital-Proyect/Hospital/src/img",
     "onboarding.tips.debug.path": "C:/Users/diego/IdeaProjects/Hospital/src/Main.java",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
